@@ -25,7 +25,6 @@ async function seedUsers() {
       `;
     }),
   );
-
   return insertedUsers;
 }
 
