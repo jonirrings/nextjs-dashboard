@@ -1,6 +1,8 @@
 import SideNav from "@/app/ui/dashboard/sidenav";
 import {LayoutProps} from "@/app/lib/definitions";
 
+export const experimental_ppr = true;
+
 export default function Layout(props: LayoutProps) {
   return (
     <div className="flex h-screen flex-col md:flex-row md:overflow-hidden">
